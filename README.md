@@ -2,7 +2,7 @@
 
 ## How to install this image 
 
-> docker pull quay.io/wgeissler/bechtle-web-image 
+`docker pull quay.io/wgeissler/bechtle-web-image`
 
 ###### Find out your IP address 
 
