@@ -1,5 +1,7 @@
 # SchulungAufgabe
 
+You will find the Dockerfile in the branch branch.
+
 ## How to install this image 
 
 `docker pull quay.io/wgeissler/bechtle-web-image`
