@@ -6,14 +6,14 @@
 
 ###### Find out your IP address 
 
-> docker inspect bechlte-web 
+`docker inspect bechlte-web`
 
 Its written down under "Networks" and "IPAddress" 
  
 
 ###### Expose your Ports 
 
-> docker run --name bechtle-web -d -p 8080:80 bechtle-web-image 
+`docker run --name bechtle-web -d -p 8080:80 bechtle-web-image`
 
 
 ###### Open the Webserver 
@@ -21,6 +21,6 @@ Its written down under "Networks" and "IPAddress"
  
 You can open the Webserver in the CLI:
 
-> curl localhost:8080
+`curl localhost:8080`
 
 Or you can open the Webserver in your brwoser by typing in the IP Address.
